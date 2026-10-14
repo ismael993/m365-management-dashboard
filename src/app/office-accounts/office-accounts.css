@@ -1,0 +1,719 @@
+/* ==========================================================================
+   1. PANTALLA DE BIENVENIDA & AURORA BLOBS (LOGIN)
+   ========================================================================== */
+
+.landing-background {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f172a;
+  overflow: hidden;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.overlay-grid {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+  z-index: 1;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(80px);
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: blobFloat 12s infinite alternate ease-in-out;
+}
+
+.blob-1 { width: 380px; height: 380px; background: #0078d4; top: 10%; left: 15%; }
+.blob-2 { width: 320px; height: 320px; background: #107c41; bottom: 15%; right: 20%; animation-delay: -4s; }
+.blob-3 { width: 280px; height: 280px; background: #8661c5; top: 40%; right: 35%; animation-delay: -8s; }
+
+@keyframes blobFloat {
+  0% { transform: translate(0px, 0px) scale(1); }
+  50% { transform: translate(30px, -40px) scale(1.08); }
+  100% { transform: translate(-20px, 20px) scale(0.95); }
+}
+
+.login-card {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  text-align: center;
+  animation: cardAppear 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes cardAppear {
+  from { opacity: 0; transform: translateY(20px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.logo-wrapper { display: flex; justify-content: center; align-items: center; padding: 5px 0; margin-bottom: 0.5rem; }
+.oca-img-logo { max-height: 55px; width: auto; object-fit: contain; }
+.sub-title { color: #323130; font-size: 1.05rem; font-weight: 600; margin-top: 0.5rem; }
+.description { color: #605e5c; font-size: 0.9rem; line-height: 1.4; margin: 1.5rem 0; }
+
+.btn-microsoft {
+  width: 100%;
+  padding: 12px;
+  background-color: #2f2f2f;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-microsoft:hover { background-color: #1f1f1f; transform: translateY(-1px); }
+.ms-icon { width: 20px; height: 20px; }
+.card-footer { margin-top: 2rem; font-size: 0.8rem; color: #8a8886; }
+
+/* ==========================================================================
+   2. ESTRUCTURA PRINCIPAL DEL PANEL (DASHBOARD)
+   ========================================================================== */
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.fade-in { animation: fadeIn 0.35s ease-in-out forwards; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.metrics-grid .card {
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e1dfdd;
+  background-color: #ffffff;
+  box-shadow: 0 1.6px 3.6px rgba(0, 0, 0, 0.13), 0 0.3px 0.9px rgba(0, 0, 0, 0.11);
+  transition: all 0.2s cubic-bezier(0.1, 0.9, 0.2, 1);
+  text-align: center;
+}
+
+.metrics-grid .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6.4px 14.4px rgba(0, 0, 0, 0.13), 0 1.2px 3.6px rgba(0, 0, 0, 0.11);
+}
+
+.metrics-grid .card h3 { margin: 0 0 0.5rem 0; font-size: 0.95rem; font-weight: 600; }
+.metrics-grid .card .number { margin: 0; font-size: 2.1rem; font-weight: 700; color: #323130; }
+
+.card-total h3 { color: #0078d4; }
+.card-active h3 { color: #107c41; }
+.card-inactive h3 { color: #d13438; }
+
+.selected-total { border: 2px solid #0078d4 !important; background-color: #f2f8fc !important; }
+.selected-active { border: 2px solid #107c41 !important; background-color: #f1f9f3 !important; }
+.selected-inactive { border: 2px solid #d13438 !important; background-color: #fdf3f3 !important; }
+
+.ms-input, .ms-select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #8a8886;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #ffffff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.ms-input:focus, .ms-select:focus {
+  border-color: #0078d4;
+  box-shadow: 0 0 0 1px #0078d4;
+}
+
+.btn-ms-excel {
+  padding: 12px 20px;
+  background-color: #107c41;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(16, 124, 65, 0.2);
+  transition: background-color 0.2s;
+}
+
+.btn-ms-excel:hover { background-color: #0e6e39; }
+
+.btn-ms-danger {
+  padding: 10px 18px;
+  background-color: #d13438;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-ms-danger:hover { background-color: #a80000; }
+
+.btn-ms-secondary {
+  padding: 10px 16px;
+  background-color: #f3f2f1;
+  color: #323130;
+  border: 1px solid #8a8886;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-ms-secondary:hover {
+  background-color: #edebe9;
+  border-color: #0078d4;
+  color: #0078d4;
+}
+
+/* ==========================================================================
+   3. WIDGET DE SALUD DE SERVICIOS M365 (PASO 1)
+   ========================================================================== */
+
+.health-widget-container {
+  background: #ffffff;
+  border: 1px solid #e1dfdd;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 1.6px 3.6px rgba(0, 0, 0, 0.08);
+}
+
+.health-header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+
+.status-dot-pulse {
+  width: 10px;
+  height: 10px;
+  background-color: #107c41;
+  border-radius: 50%;
+  box-shadow: 0 0 0 rgba(16, 124, 65, 0.4);
+  animation: pulseGreen 2s infinite;
+}
+
+@keyframes pulseGreen {
+  0% { box-shadow: 0 0 0 0 rgba(16, 124, 65, 0.7); }
+  70% { box-shadow: 0 0 0 8px rgba(16, 124, 65, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 124, 65, 0); }
+}
+
+.btn-toggle-health { background: transparent; border: none; color: #0078d4; font-weight: 600; font-size: 0.85rem; cursor: pointer; }
+
+.health-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #f3f2f1;
+}
+
+.health-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background-color: #faf9f8;
+  border: 1px solid #edebe9;
+}
+
+.health-pill { padding: 2px 8px; border-radius: 10px; font-size: 0.75rem; font-weight: 600; }
+.pill-operativo { background-color: #dff6dd; color: #107c41; }
+.pill-degradado { background-color: #fff4ce; color: #795548; }
+
+/* ==========================================================================
+   4. BANNER STACKING & ALERTAS DE RED
+   ========================================================================== */
+
+.banner-stack-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.banner-item {
+  position: sticky;
+  top: 15px;
+  padding: 14px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.banner-stack-container .banner-item:nth-child(1) { top: 15px; z-index: 10; }
+.banner-stack-container .banner-item:nth-child(2) { top: 30px; z-index: 9; }
+
+.banner-item.banner-warning { border-left: 5px solid #ffba08; background-color: #fffdf5; }
+.banner-item.banner-info { border-left: 5px solid #0078d4; background-color: #f5f9ff; }
+.banner-item.banner-danger {
+  border-left: 5px solid #d13438;
+  background-color: #fde7e9;
+  animation: pulseDanger 2s infinite ease-in-out;
+}
+
+@keyframes pulseDanger {
+  0%, 100% { box-shadow: 0 4px 12px rgba(209, 52, 56, 0.15); }
+  50% { box-shadow: 0 4px 20px rgba(209, 52, 56, 0.35); }
+}
+
+/* ==========================================================================
+   5. SPINNER TO CHECK MORPH (SVG)
+   ========================================================================== */
+
+.morph-container { width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; }
+.morph-svg { width: 28px; height: 28px; border-radius: 50%; }
+
+.morph-circle {
+  stroke: #0078d4;
+  stroke-width: 4;
+  stroke-dasharray: 145;
+  stroke-dashoffset: 45;
+  transform-origin: center;
+  animation: spinnerRotate 1.2s linear infinite;
+}
+
+.morph-check {
+  stroke: #ffffff;
+  stroke-width: 5;
+  stroke-dasharray: 36;
+  stroke-dashoffset: 36;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke-dashoffset 0.4s ease-in-out;
+}
+
+.morph-svg.is-success .morph-circle {
+  animation: none;
+  fill: #107c41;
+  stroke: #107c41;
+  transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+.morph-svg.is-success .morph-check { stroke-dashoffset: 0; }
+
+@keyframes spinnerRotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   6. SKELETON LOADER & REVEAL ANIMATIONS
+   ========================================================================== */
+
+.skeleton {
+  background: linear-gradient(90deg, #e0e0e0 25%, #f5f5f5 50%, #e0e0e0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite linear;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.skeleton-text { height: 16px; }
+.skeleton-title { height: 32px; width: 60%; }
+.skeleton-btn { width: 130px; height: 40px; border-radius: 6px; }
+
+.reveal-content { animation: fadeInReveal 0.4s ease-out forwards; }
+@keyframes fadeInReveal {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   7. MODAL DE REGISTRO DE AUDITORÍA (AUDIT LOGS - PASO 2)
+   ========================================================================== */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.modal-content {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 950px;
+  max-height: 85vh;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #e1dfdd;
+}
+
+.modal-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #edebe9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #faf9f8;
+}
+
+.btn-close-modal {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #605e5c;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.btn-close-modal:hover { background-color: #f3f2f1; color: #d13438; }
+.modal-body { padding: 1.25rem 1.5rem; overflow-y: auto; }
+.audit-table-container { max-height: 450px; overflow-y: auto; border: 1px solid #edebe9; border-radius: 6px; }
+
+.audit-pill { padding: 3px 8px; border-radius: 10px; font-size: 0.75rem; font-weight: 700; }
+.pill-accion-baja { background-color: #fde7e9; color: #a80000; }
+.pill-accion-reactivacion { background-color: #dff6dd; color: #107c41; }
+.pill-accion-exportacion { background-color: #deecf9; color: #0078d4; }
+.pill-accion-inicio_sesion { background-color: #fff4ce; color: #795548; }
+
+/* ==========================================================================
+   8. TABLA DE DATOS & COLUMNAS FIJAS (STICKY)
+   ========================================================================== */
+
+.table-container {
+  overflow-x: auto;
+  max-height: 650px;
+  border-radius: 8px;
+  border: 1px solid #e1dfdd;
+  background-color: #ffffff;
+  box-shadow: 0 1.6px 3.6px rgba(0, 0, 0, 0.13);
+}
+
+.table-accounts { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
+.table-accounts th, .table-accounts td { padding: 12px 16px; border-bottom: 1px solid #edebe9; white-space: nowrap; }
+
+.table-accounts thead th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #f8f9fa;
+  color: #323130;
+  font-weight: 600;
+  border-bottom: 2px solid #e1dfdd;
+}
+
+.licencia-pill { background-color: #f3f2f1; color: #323130; padding: 4px 10px; border-radius: 12px; font-size: 0.82rem; font-weight: 600; }
+.badge { padding: 4px 10px; border-radius: 12px; font-weight: 600; font-size: 0.8rem; }
+.badge-active { background-color: #dff6dd; color: #107c41; }
+.badge-inactive { background-color: #fde7e9; color: #a80000; }
+
+.btn-baja {
+  padding: 6px 12px;
+  background-color: #fde7e9;
+  color: #a80000;
+  border: 1px solid #f3b2b6;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-baja:hover { background-color: #d13438; color: white; }
+
+.btn-activar {
+  padding: 6px 12px;
+  background-color: #dff6dd;
+  color: #107c41;
+  border: 1px solid #92c390;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-activar:hover { background-color: #107c41; color: white; }
+.table-accounts tbody tr.baja { background-color: #fff9f9; }
+
+.table-accounts th:nth-last-child(2), .table-accounts td:nth-last-child(2) {
+  position: sticky; right: 125px; min-width: 130px; max-width: 130px; z-index: 5; background-color: #ffffff;
+}
+
+.table-accounts th:nth-last-child(1), .table-accounts td:nth-last-child(1) {
+  position: sticky; right: 0; min-width: 125px; max-width: 125px; z-index: 5; background-color: #ffffff; box-shadow: -4px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.table-accounts th:nth-last-child(2), .table-accounts th:nth-last-child(1) { z-index: 25; background-color: #f8f9fa; }
+.table-accounts tbody tr:hover td:nth-last-child(2), .table-accounts tbody tr:hover td:nth-last-child(1) { background-color: #f3f9fe; }
+.table-accounts tbody tr.baja td:nth-last-child(2), .table-accounts tbody tr.baja td:nth-last-child(1) { background-color: #fff9f9; }
+
+/* ==========================================================================
+   9. MÉTRICAS DE SEGURIDAD (SECURITY & MFA INSIGHTS)
+   ========================================================================== */
+
+.security-card-container {
+  background: #ffffff;
+  border: 1px solid #e1dfdd;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1.6px 3.6px rgba(0, 0, 0, 0.08);
+}
+
+.security-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 12px; border-bottom: 1px solid #f3f2f1; margin-bottom: 12px; }
+.security-score-pill { background-color: #deecf9; color: #0078d4; padding: 4px 12px; border-radius: 12px; font-size: 0.85rem; }
+
+.security-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; }
+.security-item { display: flex; align-items: flex-start; gap: 12px; padding: 12px; border-radius: 6px; background-color: #faf9f8; border: 1px solid #edebe9; }
+.security-item.security-alert { border-left: 4px solid #d13438; background-color: #fdf3f3; }
+.security-item.security-warning { border-left: 4px solid #ffba08; background-color: #fffdf5; }
+.security-icon-box { font-size: 1.2rem; padding: 8px; border-radius: 6px; background: #ffffff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.security-title { color: #323130; font-size: 0.9rem; margin-bottom: 2px; }
+.security-desc { margin: 0; color: #605e5c; font-size: 0.82rem; line-height: 1.35; }
+.mfa-warning-tag { display: inline-block; margin-left: 6px; padding: 2px 6px; background-color: #fde7e9; color: #a80000; border-radius: 4px; font-size: 0.72rem; font-weight: 700; }
+
+/* ==========================================================================
+   10. CONTROL DE PESTAÑAS & PASO 4 (LICENCIAS & COSTOS)
+   ========================================================================== */
+
+.tabs-bar {
+  display: flex;
+  gap: 8px;
+  border-bottom: 2px solid #edebe9;
+  margin-bottom: 1.5rem;
+}
+
+.tab-button {
+  padding: 10px 18px;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #605e5c;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab-button:hover {
+  color: #0078d4;
+  background-color: #f3f2f1;
+  border-radius: 6px 6px 0 0;
+}
+
+.tab-button.active {
+  color: #0078d4;
+  border-bottom-color: #0078d4;
+  background-color: #ffffff;
+}
+
+.license-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.license-card {
+  background: #ffffff;
+  border: 1px solid #e1dfdd;
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 1.6px 3.6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.license-card-header { display: flex; justify-content: space-between; align-items: center; font-size: 0.95rem; color: #323130; }
+.license-badge { padding: 2px 8px; border-radius: 10px; font-size: 0.78rem; font-weight: 700; }
+
+.badge-license-optimo { background-color: #dff6dd; color: #107c41; }
+.badge-license-advertencia { background-color: #fff4ce; color: #795548; }
+.badge-license-critico { background-color: #fde7e9; color: #a80000; }
+
+.progress-bar-container {
+  width: 100%;
+  height: 8px;
+  background-color: #f3f2f1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar-fill { height: 100%; border-radius: 4px; transition: width 0.4s ease-in-out; }
+.fill-optimo { background-color: #107c41; }
+.fill-advertencia { background-color: #ffba08; }
+.fill-critico { background-color: #d13438; }
+
+.license-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: #605e5c;
+  border-top: 1px solid #f3f2f1;
+  padding-top: 8px;
+}
+
+/* ==========================================================================
+   11. MODAL CORPORATIVO DE CONFIRMACIÓN (PASO 5)
+   ========================================================================== */
+
+.confirm-modal-card {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 520px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border: 1px solid #e1dfdd;
+}
+
+.confirm-modal-header {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+}
+
+.confirm-modal-header.danger-header { background-color: #d13438; }
+.confirm-modal-header.success-header { background-color: #107c41; }
+.confirm-modal-body { padding: 1.5rem; }
+
+.confirm-modal-footer {
+  padding: 1rem 1.5rem;
+  background-color: #faf9f8;
+  border-top: 1px solid #edebe9;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* ==========================================================================
+   12. PIE DE PÁGINA INSTITUCIONAL Y VERSIÓN (PASO 6)
+   ========================================================================== */
+
+.app-footer {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #edebe9;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.environment-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f3f2f1;
+  color: #323130;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border: 1px solid #e1dfdd;
+}
+
+.environment-badge .status-dot {
+  width: 7px;
+  height: 7px;
+  background-color: #107c41;
+  border-radius: 50%;
+}
+
+.sync-time {
+  color: #605e5c;
+  font-size: 0.82rem;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.82rem;
+  color: #605e5c;
+}
+
+.footer-link {
+  color: #0078d4;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #004578;
+  text-decoration: underline;
+}
+
+.footer-divider {
+  color: #c8c6c4;
+}
+
+.copyright-text {
+  color: #8a8886;
+}

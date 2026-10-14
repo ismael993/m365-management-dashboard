@@ -1,0 +1,512 @@
+@if (!estaAutenticado()) {
+  <!-- 🎨 PANTALLA DE BIENVENIDA -->
+  <div class="landing-background">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="overlay-grid"></div>
+
+    <div class="login-card">
+      <div class="brand-header">
+        <div class="logo-wrapper">
+          <img src="oca.png" onerror="this.onerror=null; this.src='assets/oca.png';" alt="Logo OCA Global" class="oca-img-logo" />
+        </div>
+        <p class="sub-title">Portal de Gestión de Cuentas Microsoft 365</p>
+      </div>
+
+      <div class="login-body">
+        <p class="description">Acceda con su cuenta corporativa para administrar los usuarios, licencias y estados de la organización.</p>
+        <button class="btn-microsoft" (click)="iniciarAutenticacionYCargar()" aria-label="Iniciar sesión con Microsoft">
+          <svg class="ms-icon" viewBox="0 0 23 23">
+            <path fill="#f35325" d="M1 1h10v10H1z"/>
+            <path fill="#81bc06" d="M12 1h10v10H12z"/>
+            <path fill="#05a6f0" d="M1 12h10v10H1z"/>
+            <path fill="#ffba08" d="M12 12h10v10H12z"/>
+          </svg>
+          <span>Iniciar sesión con Microsoft</span>
+        </button>
+      </div>
+
+      <div class="card-footer">
+        <span>&copy; {{ currentYear }} OCA Global — Gestión e Identidad Digital</span>
+      </div>
+    </div>
+  </div>
+} @else {
+  <!-- 📊 PANEL DE CONTROL FLUENT DESIGN -->
+  <div class="container fade-in">
+    <!-- ENCABEZADO PRINCIPAL -->
+    <div class="header-container" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+      <div>
+        <h2 style="margin: 0; font-weight: 700; color: #0078d4; font-size: 1.75rem;">Gestión de Cuentas Office</h2>
+        <p style="margin: 4px 0 0 0; color: #605e5c; font-size: 0.95rem;">
+          @if (cargando()) {
+            <span class="skeleton skeleton-text" style="width: 180px; display: inline-block;"></span>
+          } @else {
+            <span class="reveal-content">Bienvenido, <strong>{{ nombreUsuarioConectado() }}</strong></span>
+          }
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 10px; align-items: center;">
+        @if (!cargando()) {
+          <button (click)="toggleModalAuditoria()" class="btn-ms-secondary" aria-label="Ver registro de auditoría">
+            📜 Auditoría ({{ auditLogs().length }})
+          </button>
+        }
+
+        @if (cargando()) {
+          <div class="skeleton skeleton-btn"></div>
+        } @else {
+          <button (click)="cerrarSesion()" class="btn-ms-danger" aria-label="Cerrar sesión">
+            🚪 Cerrar Sesión
+          </button>
+        }
+      </div>
+    </div>
+
+    <!-- 🔀 BARRA DE PESTAÑAS (TABS CONTROL) -->
+    <div class="tabs-bar">
+      <button
+        class="tab-button"
+        [class.active]="vistaActual() === 'CUENTAS'"
+        (click)="vistaActual.set('CUENTAS')">
+        👥 Usuarios y Cuentas ({{ cuentasActivasQuedan() }})
+      </button>
+      <button
+        class="tab-button"
+        [class.active]="vistaActual() === 'LICENCIAS'"
+        (click)="vistaActual.set('LICENCIAS')">
+        💳 Control de Licencias y Costos ({{ licenciasInventario().length }})
+      </button>
+    </div>
+
+    <!-- 🟢 WIDGET DE SALUD M365 -->
+    <div class="health-widget-container">
+      <div class="health-header" (click)="togglePanelSalud()">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <span class="status-dot-pulse"></span>
+          <strong style="color: #323130; font-size: 0.95rem;">Estado de Servicios Microsoft 365 (Tenant Health)</strong>
+        </div>
+        <button class="btn-toggle-health">
+          {{ mostrarPanelSalud() ? 'Ocultar detalles ▲' : 'Ver salud del Tenant ▼' }}
+        </button>
+      </div>
+
+      @if (mostrarPanelSalud()) {
+        <div class="health-grid reveal-content">
+          @for (servicio of serviciosSalud(); track servicio.nombre) {
+            <div class="health-card">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <span style="font-size: 1.2rem;">{{ servicio.icono }}</span>
+                <div>
+                  <div style="font-weight: 600; color: #323130; font-size: 0.88rem;">{{ servicio.nombre }}</div>
+                  <small style="color: #605e5c;">{{ servicio.mensaje }}</small>
+                </div>
+              </div>
+              <span class="health-pill" [class]="'pill-' + servicio.estado">
+                {{ servicio.estado === 'operativo' ? 'Operativo' : 'Incidencia' }}
+              </span>
+            </div>
+          }
+        </div>
+      }
+    </div>
+
+    <!-- 🚨 ALERTA ROJA DE CONEXIÓN CAÍDA -->
+    @if (sinConexionRed()) {
+      <div class="banner-stack-container">
+        <div class="banner-item banner-danger">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="font-size: 1.4rem;">❌</span>
+            <div>
+              <strong style="color: #a80000;">Conexión Interrumpida:</strong>
+              <span style="color: #a80000; font-size: 0.95rem;"> Se ha detectado una interrupción en la conexión. La sincronización con Microsoft Graph API está en pausa.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+
+    <!-- 🔔 BANNERS DE ESTADO -->
+    @if (!cargando() && !sinConexionRed()) {
+      <div class="banner-stack-container">
+        <div class="banner-item banner-info">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <div class="morph-container">
+              <svg class="morph-svg" viewBox="0 0 52 52" [class.is-success]="conexionExitosa()">
+                <circle class="morph-circle" cx="26" cy="26" r="23" fill="none"/>
+                <path class="morph-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+              </svg>
+            </div>
+            <div>
+              <strong style="color: #0078d4;">Estado del Tenant:</strong>
+              <span style="color: #323130; font-size: 0.9rem;">
+                {{ conexionExitosa() ? 'Conexión activa con Microsoft Graph API. Todos los servicios funcionan correctamente.' : 'Sincronizando licencias con Microsoft 365...' }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+
+    <!-- ====================================================================
+         PESTAÑA 1: GESTIÓN DE CUENTAS DE USUARIOS
+         ==================================================================== -->
+    @if (vistaActual() === 'CUENTAS') {
+      <div class="tab-content reveal-content">
+        <!-- MÉTRICAS PRINCIPALES -->
+        <div class="metrics-grid">
+          <div class="card card-total" (click)="filtroEstado.set('TODAS')" [class.selected-total]="filtroEstado() === 'TODAS'" style="cursor: pointer;">
+            <h3>Total Cuentas</h3>
+            @if (cargando()) { <div class="skeleton skeleton-title" style="margin: 8px auto 0 auto;"></div> }
+            @else { <p class="number reveal-content">{{ totalCuentas() }}</p> }
+          </div>
+
+          <div class="card card-active" (click)="filtroEstado.set('ACTIVAS')" [class.selected-active]="filtroEstado() === 'ACTIVAS'" style="cursor: pointer;">
+            <h3>Cuentas Activas</h3>
+            @if (cargando()) { <div class="skeleton skeleton-title" style="margin: 8px auto 0 auto;"></div> }
+            @else { <p class="number reveal-content">{{ cuentasActivasQuedan() }}</p> }
+          </div>
+
+          <div class="card card-inactive" (click)="filtroEstado.set('BAJA')" [class.selected-inactive]="filtroEstado() === 'BAJA'" style="cursor: pointer;">
+            <h3>Dadas de Baja</h3>
+            @if (cargando()) { <div class="skeleton skeleton-title" style="margin: 8px auto 0 auto;"></div> }
+            @else { <p class="number reveal-content">{{ cuentasDadasDeBaja() }}</p> }
+          </div>
+        </div>
+
+        <!-- INSIGHTS DE SEGURIDAD (MFA & INACTIVIDAD) -->
+        @if (!cargando() && !sinConexionRed()) {
+          <div class="security-card-container">
+            <div class="security-header">
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <span style="font-size: 1.2rem;">🛡️</span>
+                <strong style="color: #323130; font-size: 1rem;">Postura de Seguridad e Identidad (Microsoft Entra)</strong>
+              </div>
+              <span class="security-score-pill">
+                Cobertura MFA: <strong>{{ porcentajeCoberturaMFA() }}%</strong>
+              </span>
+            </div>
+
+            <div class="security-grid">
+              <div class="security-item" [class.security-alert]="cuentasSinMFA() > 0">
+                <div class="security-icon-box">🔑</div>
+                <div class="security-details">
+                  <div class="security-title">
+                    <strong>{{ cuentasSinMFA() }} Cuentas sin Doble Factor (MFA)</strong>
+                  </div>
+                  <p class="security-desc">Usuarios vulnerables a suplantación de identidad por no tener configurado Authenticator.</p>
+                </div>
+              </div>
+
+              <div class="security-item" [class.security-warning]="cuentasInactivasCriticas() > 0">
+                <div class="security-icon-box">💤</div>
+                <div class="security-details">
+                  <div class="security-title">
+                    <strong>{{ cuentasInactivasCriticas() }} Cuentas Inactivas (+90 días)</strong>
+                  </div>
+                  <p class="security-desc">Sugerencia de ahorro: Dar de baja o reasignar licencias comerciales sin uso activo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        }
+
+        <!-- CONTROLES DE BÚSQUEDA -->
+        <div style="display: grid; grid-template-columns: 2fr 1fr auto; gap: 1rem; margin: 1.5rem 0; align-items: center;">
+          <div>
+            <input
+              type="text"
+              [ngModel]="busqueda()"
+              (ngModelChange)="busqueda.set($event)"
+              placeholder="🔍 Buscar por nombre, correo, RUT u OT..."
+              class="ms-input"
+            />
+          </div>
+
+          <div>
+            <select [ngModel]="filtroLicencia()" (ngModelChange)="filtroLicencia.set($event)" class="ms-select">
+              <option value="TODAS">📋 Todas las licencias</option>
+              @for (lic of tiposDeLicenciasDisponibles(); track lic) {
+                <option [value]="lic">{{ lic }}</option>
+              }
+            </select>
+          </div>
+
+          @if (cargando()) {
+            <div class="skeleton skeleton-btn"></div>
+          } @else {
+            <button (click)="exportarAExcel()" class="btn-ms-excel" aria-label="Exportar datos a archivo Excel">
+              📊 Exportar Excel
+            </button>
+          }
+        </div>
+
+        <!-- TABLA DE CUENTAS -->
+        <div class="table-container">
+          <table class="table-accounts">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Correo Office</th>
+                <th>Fecha Creación</th>
+                <th>RUT</th>
+                <th>Licencia</th>
+                <th>OT</th>
+                <th>Estado</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              @if (cargando()) {
+                @for (item of [1, 2, 3, 4, 5, 6, 7, 8]; track item) {
+                  <tr class="skeleton-row">
+                    <td><span class="skeleton skeleton-text" style="width: 20px;"></span></td>
+                    <td><span class="skeleton skeleton-text" style="width: 140px;"></span></td>
+                    <td><span class="skeleton skeleton-text" style="width: 220px;"></span></td>
+                    <td><span class="skeleton skeleton-text" style="width: 85px;"></span></td>
+                    <td><span class="skeleton skeleton-text" style="width: 95px;"></span></td>
+                    <td><span class="skeleton skeleton-text" style="width: 150px;"></span></td>
+                    <td><span class="skeleton skeleton-text" style="width: 70px;"></span></td>
+                    <td><span class="skeleton skeleton-text" style="width: 65px;"></span></td>
+                    <td><span class="skeleton skeleton-text" style="width: 85px;"></span></td>
+                  </tr>
+                }
+              } @else {
+                @for (acc of cuentasFiltradas(); track acc.id) {
+                  <tr [class.baja]="!acc.activa" class="reveal-content">
+                    <td>{{ acc.id }}</td>
+                    <td>
+                      <strong>{{ acc.nombre }}</strong>
+                      @if (!acc.mfaHabilitado && acc.activa) {
+                        <span class="mfa-warning-tag" title="Cuenta sin MFA activo">⚠️ Sin MFA</span>
+                      }
+                    </td>
+                    <td style="color: #0078d4;">{{ acc.email }}</td>
+                    <td>{{ acc.fechaCreacion }}</td>
+                    <td>{{ acc.rut }}</td>
+                    <td><span class="licencia-pill">{{ acc.licencia }}</span></td>
+                    <td>{{ acc.ot }}</td>
+                    <td>
+                      <span class="badge" [class.badge-active]="acc.activa" [class.badge-inactive]="!acc.activa">
+                        {{ acc.activa ? 'Activa' : 'Dada de baja' }}
+                      </span>
+                    </td>
+                    <td>
+                      <button (click)="solicitarCambioEstado(acc.id)" [class.btn-baja]="acc.activa" [class.btn-activar]="!acc.activa">
+                        {{ acc.activa ? 'Dar de baja' : 'Reactivar' }}
+                      </button>
+                    </td>
+                  </tr>
+                } @empty {
+                  <tr>
+                    <td colspan="9" style="text-align: center; padding: 28px; color: #605e5c;">
+                      No se encontraron usuarios en esta categoría.
+                    </td>
+                  </tr>
+                }
+              }
+            </tbody>
+          </table>
+        </div>
+      </div>
+    }
+
+    <!-- ====================================================================
+         PESTAÑA 2: CONTROL DE LICENCIAS Y COSTOS (PASO 4)
+         ==================================================================== -->
+    @if (vistaActual() === 'LICENCIAS') {
+      <div class="tab-content reveal-content">
+        <!-- MÉTRICAS DE LICENCIAMIENTO -->
+        <div class="metrics-grid">
+          <div class="card card-total">
+            <h3>Total Licencias Suscritas</h3>
+            <p class="number">{{ totalLicenciasCompradas() }}</p>
+          </div>
+
+          <div class="card card-active">
+            <h3>Licencias Asignadas</h3>
+            <p class="number">{{ cuentasActivasQuedan() }}</p>
+          </div>
+
+          <div class="card card-inactive">
+            <h3>Licencias Libres (Sin Asignar)</h3>
+            <p class="number" style="color: #ffba08;">{{ totalLicenciasSinUsar() }}</p>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+          <h3 style="margin: 0; color: #323130; font-size: 1.1rem;">Inventario Comercial de Suscripciones M365</h3>
+          <button (click)="exportarInventarioLicencias()" class="btn-ms-excel" style="padding: 8px 16px; font-size: 0.88rem;">
+            📥 Exportar Inventario (Excel)
+          </button>
+        </div>
+
+        <!-- TARJETAS DE PROGRESO DE CONSUMO POR PRODUCTO -->
+        <div class="license-grid">
+          @for (item of licenciasInventario(); track item.skuId) {
+            <div class="license-card" [class]="'license-card-' + item.estadoConsumo.toLowerCase()">
+              <div class="license-card-header">
+                <strong>{{ item.nombreComercial }}</strong>
+                <span class="license-badge" [class]="'badge-license-' + item.estadoConsumo.toLowerCase()">
+                  {{ item.porcentajeUso }}% Ocupado
+                </span>
+              </div>
+
+              <!-- BARRA DE PROGRESO DE USO -->
+              <div class="progress-bar-container">
+                <div class="progress-bar-fill" [style.width.%]="item.porcentajeUso" [class]="'fill-' + item.estadoConsumo.toLowerCase()"></div>
+              </div>
+
+              <div class="license-stats">
+                <span>Compradas: <strong>{{ item.totalCompradas }}</strong></span>
+                <span>Asignadas: <strong>{{ item.asignadas }}</strong></span>
+                <span>Disponibles: <strong style="color: #107c41;">{{ item.disponibles }}</strong></span>
+              </div>
+            </div>
+          } @empty {
+            <div style="text-align: center; padding: 2rem; color: #605e5c; grid-column: 1 / -1;">
+              No se encontraron datos de licencias registradas en el Tenant.
+            </div>
+          }
+        </div>
+      </div>
+    }
+
+    <!-- 🏢 PASO 6: PIE DE PÁGINA CORPORATIVO E IDENTIDAD INSTITUCIONAL -->
+    <footer class="app-footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <span class="environment-badge">
+            <span class="status-dot"></span> Entorno Producción v1.2.0
+          </span>
+          @if (ultimaSincronizacion()) {
+            <small class="sync-time">
+              🔄 Última sincronización con Graph API: <strong>{{ ultimaSincronizacion() }} hrs</strong>
+            </small>
+          }
+        </div>
+
+        <div class="footer-right">
+          <a href="mailto:soporte.ti@ocaglobal.com" class="footer-link">
+            📧 Soporte TI OCA Global
+          </a>
+          <span class="footer-divider">|</span>
+          <span class="copyright-text">&copy; {{ currentYear }} OCA Global — Seguridad e Identidad Digital</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- 📜 MODAL DE AUDITORÍA -->
+  @if (mostrarModalAuditoria()) {
+    <div class="modal-overlay" (click)="toggleModalAuditoria()">
+      <div class="modal-content reveal-content" (click)="$event.stopPropagation()">
+        <div class="modal-header">
+          <div>
+            <h3 style="margin: 0; color: #0078d4; font-size: 1.25rem;">📜 Historial y Registro de Auditoría</h3>
+            <p style="margin: 4px 0 0 0; color: #605e5c; font-size: 0.85rem;">Eventos de seguridad y operaciones de cuenta en esta sesión.</p>
+          </div>
+          <button (click)="toggleModalAuditoria()" class="btn-close-modal" aria-label="Cerrar modal">✕</button>
+        </div>
+
+        <div class="modal-body">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <span style="font-size: 0.9rem; color: #323130;">Total de eventos registrados: <strong>{{ auditLogs().length }}</strong></span>
+            <button (click)="exportarLogAuditoriaExcel()" class="btn-ms-excel" style="padding: 8px 14px; font-size: 0.85rem;">
+              📥 Exportar Log (Excel)
+            </button>
+          </div>
+
+          <div class="audit-table-container">
+            <table class="table-accounts">
+              <thead>
+                <tr>
+                  <th>ID Evento</th>
+                  <th>Fecha / Hora</th>
+                  <th>Administrador</th>
+                  <th>Acción</th>
+                  <th>Usuario Afectado</th>
+                  <th>Detalles</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (log of auditLogs(); track log.id) {
+                  <tr>
+                    <td><code>{{ log.id }}</code></td>
+                    <td>{{ log.fechaHora }}</td>
+                    <td><strong>{{ log.usuarioAdmin }}</strong></td>
+                    <td>
+                      <span class="audit-pill" [class]="'pill-accion-' + log.accion.toLowerCase()">
+                        {{ log.accion }}
+                      </span>
+                    </td>
+                    <td>{{ log.usuarioAfectado }}</td>
+                    <td>{{ log.detalles }}</td>
+                  </tr>
+                } @empty {
+                  <tr>
+                    <td colspan="6" style="text-align: center; padding: 20px; color: #605e5c;">
+                      No se han registrado eventos de auditoría en esta sesión.
+                    </td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  }
+
+  <!-- ⚠️ PASO 5: MODAL CORPORATIVO DE CONFIRMACIÓN -->
+  @if (mostrarModalConfirmacion() && cuentaSeleccionada()) {
+    <div class="modal-overlay" (click)="cerrarModalConfirmacion()">
+      <div class="confirm-modal-card reveal-content" (click)="$event.stopPropagation()">
+        <div class="confirm-modal-header" [class.danger-header]="cuentaSeleccionada()?.activa" [class.success-header]="!cuentaSeleccionada()?.activa">
+          <span style="font-size: 1.5rem;">{{ cuentaSeleccionada()?.activa ? '⚠️' : '🔄' }}</span>
+          <div>
+            <h3 style="margin: 0; font-size: 1.15rem;">
+              {{ cuentaSeleccionada()?.activa ? 'Confirmar Baja de Cuenta Corporativa' : 'Confirmar Reactivación de Cuenta' }}
+            </h3>
+            <small style="opacity: 0.85;">Operación de Seguridad e Identidad Digital</small>
+          </div>
+        </div>
+
+        <div class="confirm-modal-body">
+          <p style="margin: 0 0 1rem 0; color: #323130; line-height: 1.45;">
+            ¿Está seguro de que desea {{ cuentaSeleccionada()?.activa ? 'dar de baja' : 'reactivar' }} a
+            <strong>{{ cuentaSeleccionada()?.nombre }}</strong> (<code>{{ cuentaSeleccionada()?.email }}</code>)?
+          </p>
+
+          <div style="margin-bottom: 1rem;">
+            <label style="display: block; font-size: 0.85rem; font-weight: 600; color: #605e5c; margin-bottom: 6px;">
+              Motivo o Justificación (Opcional):
+            </label>
+            <textarea
+              [ngModel]="motivoCambio()"
+              (ngModelChange)="motivoCambio.set($event)"
+              placeholder="Ej. Término de contrato laboral / Solicitud Ticket #1024 / Reincorporación..."
+              rows="3"
+              class="ms-input"
+              style="resize: none; font-family: inherit; font-size: 0.9rem;"></textarea>
+          </div>
+        </div>
+
+        <div class="confirm-modal-footer">
+          <button (click)="cerrarModalConfirmacion()" class="btn-ms-secondary">
+            Cancelar
+          </button>
+          <button
+            (click)="confirmarCambioEstado()"
+            [class.btn-ms-danger]="cuentaSeleccionada()?.activa"
+            [class.btn-ms-excel]="!cuentaSeleccionada()?.activa">
+            {{ cuentaSeleccionada()?.activa ? 'Sí, Dar de baja' : 'Sí, Reactivar' }}
+          </button>
+        </div>
+      </div>
+    </div>
+  }
+}

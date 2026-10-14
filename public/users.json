@@ -1,0 +1,3103 @@
+[
+  {
+    "id": 1,
+    "nombre": "A. Andrea Patarroyo Rodriguez",
+    "email": "apatarroyor_ufinet.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 2,
+    "nombre": "Adolfo Tapia",
+    "email": "adolfo.tapia@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 3,
+    "nombre": "Ailyn Arce",
+    "email": "ailyn.arce@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 4,
+    "nombre": "Alaff Saavedra, Matias Eduardo (Enap Refinerías)",
+    "email": "3malaffs_externos.enap.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 5,
+    "nombre": "Alberto Maureira Navarrete",
+    "email": "alberto.maureira@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 6,
+    "nombre": "Aldo Godoy Godoy",
+    "email": "aldo.godoy@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 7,
+    "nombre": "Aldo Urzua",
+    "email": "aldo.urzua@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 8,
+    "nombre": "Alejandra Castillo",
+    "email": "alejandra.castillo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 9,
+    "nombre": "Alejandro Cerna",
+    "email": "alejandro.cerna@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 10,
+    "nombre": "Alejandro Silva",
+    "email": "alejandro.silva@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 11,
+    "nombre": "Alejandro Viveros",
+    "email": "alejandro.viveros@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 12,
+    "nombre": "Alessandro Benedetti",
+    "email": "alessandro.benedetti@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 13,
+    "nombre": "Alex García",
+    "email": "alex.garcia@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 14,
+    "nombre": "Alex Osses",
+    "email": "alex.oses@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 15,
+    "nombre": "Alex Vera",
+    "email": "alex.vera@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 16,
+    "nombre": "Alexandra  Llanos",
+    "email": "alexandra.llanos@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 17,
+    "nombre": "Alexis Bordillo",
+    "email": "alexis.bordillo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 18,
+    "nombre": "Alexis Gálvez",
+    "email": "alexis.galvez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 19,
+    "nombre": "Alexis Veraguas",
+    "email": "alexis.veraguas@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 20,
+    "nombre": "Alfredo Ignacio Sotomayor Rojas",
+    "email": "alfredo.sotomayor@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 21,
+    "nombre": "Álvaro Aliaga",
+    "email": "alvaro.aliaga@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 22,
+    "nombre": "Alvaro Bancalari",
+    "email": "alvaro.bancalari@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 23,
+    "nombre": "Amalia Gonzalez",
+    "email": "amalia.gonzalez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 24,
+    "nombre": "Amelia Pavez",
+    "email": "amelia.pavez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 25,
+    "nombre": "Ana Calderón",
+    "email": "ana.calderon@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Microsoft Fabric (Gratis)+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 26,
+    "nombre": "Ana Ruiz Montenegro",
+    "email": "ana.ruiz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 27,
+    "nombre": "Anacarina Munoz",
+    "email": "anacarina.munoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 28,
+    "nombre": "Anaís Durán",
+    "email": "anais.duran@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 29,
+    "nombre": "Andre Flores",
+    "email": "andre.flores@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 30,
+    "nombre": "Andrea Martin",
+    "email": "andrea.martin@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 31,
+    "nombre": "Andreina Barrios",
+    "email": "andreina.barrios@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 32,
+    "nombre": "Andres Buben",
+    "email": "andres.buben@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 33,
+    "nombre": "Andres Trullen",
+    "email": "andres.trullen@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 34,
+    "nombre": "Angely Campos Trincado",
+    "email": "angely.campos@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 35,
+    "nombre": "Angio Gallardo",
+    "email": "angio.gallardo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 36,
+    "nombre": "Anthonny Pinares",
+    "email": "anthonny.pinares@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 37,
+    "nombre": "Antonio Ruiz",
+    "email": "antonio.ruiz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 38,
+    "nombre": "Arcenio  Escobar",
+    "email": "arcenio.escobar@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 39,
+    "nombre": "Arias Valdebenito, Peters Nelson (Enap Refinerías)",
+    "email": "parias_enaprefinerias.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 40,
+    "nombre": "Ariel Araya",
+    "email": "ariel.araya@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 41,
+    "nombre": "Ariel Gonzalez Molina",
+    "email": "ariel.gonzalez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 42,
+    "nombre": "Arturo Castillo",
+    "email": "arturo.castillo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Apps Plan 2 Trial+Microsoft Fabric (Gratis)+Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 43,
+    "nombre": "Arturo Sato",
+    "email": "arturo.sato@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 44,
+    "nombre": "Axel Asmussen",
+    "email": "axel.asmussen@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 45,
+    "nombre": "Barbara Lorca Carrasco",
+    "email": "barbara.lorca@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 46,
+    "nombre": "Benjamin Prat",
+    "email": "benjamin.prat@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 47,
+    "nombre": "Boris Toro",
+    "email": "boris.toro@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 48,
+    "nombre": "Bruno  Suazo",
+    "email": "bruno.suazo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 49,
+    "nombre": "Bryan Fuentealba",
+    "email": "bryan.fuentealba@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Power BI Pro+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 50,
+    "nombre": "Camila Barna",
+    "email": "camila.barna@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 51,
+    "nombre": "Camila del Solar",
+    "email": "camila.delsolar@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Automate Free+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 52,
+    "nombre": "Camila Ortega",
+    "email": "camila.ortega@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 53,
+    "nombre": "Camila Ortiz",
+    "email": "camila.ortiz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 54,
+    "nombre": "Camila Osses Fierro",
+    "email": "camila.osses@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 55,
+    "nombre": "Camila Palma",
+    "email": "camila.palma@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 56,
+    "nombre": "Camila Valdivia",
+    "email": "camila.valdivia@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 57,
+    "nombre": "Camilo Fren",
+    "email": "camilo.fren@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 58,
+    "nombre": "Camilo González",
+    "email": "camilo.gonzalez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 59,
+    "nombre": "Camilo Ponce Devaud",
+    "email": "camilo.ponce@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 60,
+    "nombre": "Camilo Sandoval",
+    "email": "camilo.sandoval@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 61,
+    "nombre": "Carla Mohor",
+    "email": "carla.mohor@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 62,
+    "nombre": "Carlos  Arriagada",
+    "email": "carlos.arriagada@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 63,
+    "nombre": "Carlos  Reyes",
+    "email": "carlos.reyes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 64,
+    "nombre": "Carlos Alvarez",
+    "email": "carlos.alvarez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 65,
+    "nombre": "Carlos Ceballos",
+    "email": "carlos.ceballos@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 66,
+    "nombre": "Carlos Enock",
+    "email": "carlos.enock@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 67,
+    "nombre": "Carlos Fernández",
+    "email": "carlos.fernandez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 68,
+    "nombre": "Carlos Fuentes",
+    "email": "carlos.fuentes@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 69,
+    "nombre": "Carlos Gost",
+    "email": "carlos.gost@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 70,
+    "nombre": "Carlos Mella",
+    "email": "carlos.mella@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 71,
+    "nombre": "Carlos Morales",
+    "email": "carlos.morales@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 72,
+    "nombre": "Carlos Oliva",
+    "email": "carlos.oliva@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 73,
+    "nombre": "Carmen Saavedra Cuzmar",
+    "email": "carmen.saavedra@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 74,
+    "nombre": "Catalina Soto",
+    "email": "catalina.soto@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 75,
+    "nombre": "Cesar  Ortíz",
+    "email": "cesar.ortiz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 76,
+    "nombre": "Cesar Andrade",
+    "email": "cesar.andrade@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Automate Free+Planner y Project Plan 3",
+    "activa": true
+  },
+  {
+    "id": 77,
+    "nombre": "Cesar Humberto Rojas Herras",
+    "email": "cesar.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 78,
+    "nombre": "Cesar Mora",
+    "email": "cesar.mora@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 79,
+    "nombre": "Cesar Perez",
+    "email": "cesar.perez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 80,
+    "nombre": "Chadia Herniquez",
+    "email": "chadia.henriquez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 81,
+    "nombre": "Charis Scarlette Sanchez Calisto",
+    "email": "charis.sanchez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 82,
+    "nombre": "Christian  Marino",
+    "email": "christian.marino@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 83,
+    "nombre": "Christian Pardo San Martin",
+    "email": "christian.pardo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 84,
+    "nombre": "Cindy  Bañares",
+    "email": "cindy.banares@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 85,
+    "nombre": "CL0009.AsisQA",
+    "email": "Cl0009.asisqa_bonatti.it#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 86,
+    "nombre": "CL0009.OOCCINSPEC3",
+    "email": "CL0009.OOCCINSPEC3_bonatti.it#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 87,
+    "nombre": "CL0009.OOCCINSPEC5",
+    "email": "CL0009.OOCCINSPEC5_bonatti.it#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 88,
+    "nombre": "Claudia Bello",
+    "email": "claudia.bello@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 89,
+    "nombre": "Claudia Cancino",
+    "email": "claudia.cancino@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 90,
+    "nombre": "Claudia Cantellano Ramos",
+    "email": "claudia.cantellano@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 91,
+    "nombre": "Claudia Castro",
+    "email": "claudia.castro@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 92,
+    "nombre": "Claudia Hernandez",
+    "email": "claudia.hernandez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 93,
+    "nombre": "Claudia Soto",
+    "email": "claudia.soto@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 94,
+    "nombre": "Claudio Budini",
+    "email": "claudio.budini@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 95,
+    "nombre": "Claudio Ledezma",
+    "email": "claudio.ledezma@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 96,
+    "nombre": "Claudio Rodrigo Belmar Ferrada",
+    "email": "claudio.belmar@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 97,
+    "nombre": "Constanza Palacios",
+    "email": "constanza.palacios@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 98,
+    "nombre": "Cristian  Palma",
+    "email": "cristian.palma@ocaglobal.onmicrosoft.com",
+    "licencia": "Planner y Project Plan 3+Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 99,
+    "nombre": "Cristian Alvial",
+    "email": "cristianalvial@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 100,
+    "nombre": "Cristian Gonzalez",
+    "email": "cristian.gonzalez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 101,
+    "nombre": "Cristian Mayer",
+    "email": "cristian.mayer@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 102,
+    "nombre": "Cristian Mendoza",
+    "email": "cristian.mendoza@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Power BI Pro+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 103,
+    "nombre": "Cristian Muniz",
+    "email": "cristian.muniz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 104,
+    "nombre": "Cristian Ramírez",
+    "email": "cristian.ramirez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 105,
+    "nombre": "Cristobal Mora",
+    "email": "cristobal.mora@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 106,
+    "nombre": "Cristobal Varela",
+    "email": "cristobal.varela@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Planner y Project Plan 3",
+    "activa": true
+  },
+  {
+    "id": 107,
+    "nombre": "Cristopher Cruz",
+    "email": "cristopher.cruz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 108,
+    "nombre": "Cristopher Marín",
+    "email": "cristopher.marin@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 109,
+    "nombre": "Cruces Navarrete, Fernando Rodrigo (Enap Refinerías)",
+    "email": "fcruces_enaprefinerias.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 110,
+    "nombre": "Cynthia Moncada Aguilera",
+    "email": "cynthia.moncada@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 111,
+    "nombre": "Daisy Constanzo",
+    "email": "daisy.constanzo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 112,
+    "nombre": "Daniel  Cortes",
+    "email": "daniel.cortes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 113,
+    "nombre": "Daniel  Fuentes",
+    "email": "daniel.fuentes@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 114,
+    "nombre": "Daniel Barra",
+    "email": "daniel.barra@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 115,
+    "nombre": "Daniel Godoy",
+    "email": "daniel.godoy@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 116,
+    "nombre": "Daniel Jorquera",
+    "email": "daniel.jorquera@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 117,
+    "nombre": "Daniel Merino",
+    "email": "daniel.merino@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 118,
+    "nombre": "Daniel Silva",
+    "email": "daniel.silva@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 119,
+    "nombre": "Danitza Bravo",
+    "email": "danitza.bravo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 120,
+    "nombre": "Darling Acuna",
+    "email": "darling.acuna@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 121,
+    "nombre": "Darwin García",
+    "email": "darwin.garcia@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 122,
+    "nombre": "David Carrasco",
+    "email": "david.carrasco@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 123,
+    "nombre": "David Dote Troncoso",
+    "email": "david.dote@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 124,
+    "nombre": "Dennisse  Espinoza",
+    "email": "dennisse.espinoza@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 125,
+    "nombre": "Diego Bravo",
+    "email": "diego.bravo@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 126,
+    "nombre": "Diego Munoz",
+    "email": "diego.munoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Visio Plan 2+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 127,
+    "nombre": "Diria Ibáñez",
+    "email": "diria.ibanez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 128,
+    "nombre": "Dixmar Barbera",
+    "email": "dixmar.barbera@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 129,
+    "nombre": "Doris Ruiz",
+    "email": "doris.ruiz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 130,
+    "nombre": "Eddic  Monzant",
+    "email": "eddic.monzant@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 131,
+    "nombre": "Edith Chandia",
+    "email": "edith.chandia@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 132,
+    "nombre": "Eduardo  Pinela",
+    "email": "eduardo.pinela@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Automate Free+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 133,
+    "nombre": "Eduardo Núñez",
+    "email": "eduardo.nunez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Power BI Pro+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 134,
+    "nombre": "Eduardo Prussing",
+    "email": "eduardo.prussing@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 135,
+    "nombre": "Eduardo Soto",
+    "email": "eduardo.soto@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 136,
+    "nombre": "Eduardo.Umanzor",
+    "email": "Eduardo.Umanzor_bonatti.it#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 137,
+    "nombre": "Edwin Salas Cabrera",
+    "email": "edwin.salas@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Planner y Project Plan 3+Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 138,
+    "nombre": "Elizabeth Droguett",
+    "email": "elizabeth.droguett@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 139,
+    "nombre": "Elizabeth Xenia Vildoso Ossandón",
+    "email": "elizabeth.vildoso@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 140,
+    "nombre": "Emerson Campos",
+    "email": "emerson.campos@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 141,
+    "nombre": "Ender Gutiérrez",
+    "email": "ender.gutierrez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 142,
+    "nombre": "Enrique Cortes",
+    "email": "enrique.cortes@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 143,
+    "nombre": "Erick Cáceres",
+    "email": "admin@ocaglobal.onmicrosoft.com",
+    "licencia": "Intune+Azure Active Directory Premium P1+Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 144,
+    "nombre": "Erick Cáceres",
+    "email": "erick.caceres@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 145,
+    "nombre": "Eva Camacho",
+    "email": "eva.camacho@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 146,
+    "nombre": "Faviola Soto",
+    "email": "faviola.soto@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 147,
+    "nombre": "Felipe Alveal",
+    "email": "felipe.alveal@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 148,
+    "nombre": "Felipe Arce",
+    "email": "felipe.arce@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 149,
+    "nombre": "Felipe Cristensen",
+    "email": "felipe.cristensen@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 150,
+    "nombre": "Felipe Diaz",
+    "email": "felipe.diaz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 151,
+    "nombre": "Felipe Larson",
+    "email": "felipe.larson@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 152,
+    "nombre": "Felipe Ortega",
+    "email": "felipe.ortega@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 153,
+    "nombre": "Felipe Pinto",
+    "email": "felipe.pinto@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 154,
+    "nombre": "Felipe Riquelme",
+    "email": "felipe.riquelme@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 155,
+    "nombre": "Felipe Tobar",
+    "email": "felipe.tobar@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 156,
+    "nombre": "Felipe Vielma",
+    "email": "felipe.vielma@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 157,
+    "nombre": "Felipe Wladimir Villarroel Martinez",
+    "email": "felipe.villarroel@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 158,
+    "nombre": "Fernanda Tapia",
+    "email": "fernanda.tapia@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 159,
+    "nombre": "Fernando Barriga",
+    "email": "fernando.barriga@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 160,
+    "nombre": "Fernando Paredes",
+    "email": "fernando.paredes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 161,
+    "nombre": "Fernando Pinto",
+    "email": "fernando.pinto@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 162,
+    "nombre": "Flores Rojas, Alejandro (Enap Refinerías)",
+    "email": "3afloresr_enap.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 163,
+    "nombre": "Franchesca Malebran Peralta",
+    "email": "franchesca.malebran@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 164,
+    "nombre": "Francisca Silva",
+    "email": "francisca.silva@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 165,
+    "nombre": "Francisco Garcia",
+    "email": "francisco.garcia@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 166,
+    "nombre": "Francisco Guzman Pilasi",
+    "email": "francisco.guzman@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 167,
+    "nombre": "Francisco Salgado",
+    "email": "francisco.salgado@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Automate Free+Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 168,
+    "nombre": "Francisco Valenzuela",
+    "email": "francisco.valenzuelaj@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 169,
+    "nombre": "francisco.guzman",
+    "email": "francisco.guzman_ocaglobal.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 170,
+    "nombre": "francisco.salgado",
+    "email": "francisco.salgado_ocaglobal.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 171,
+    "nombre": "Franco Jerez",
+    "email": "franco.jerez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 172,
+    "nombre": "Franklin García Escorche",
+    "email": "franklin.garcia@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 173,
+    "nombre": "Freddy Suarez",
+    "email": "freddy.suarez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 174,
+    "nombre": "Frederick Rojas",
+    "email": "frederick.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 175,
+    "nombre": "Fuentes Duran, Daniel Antonio (Enap Refinerías)",
+    "email": "3dfuentes_externos.enap.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 176,
+    "nombre": "Gabriel Muñoz",
+    "email": "gabriel.munoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 177,
+    "nombre": "Gabriela Pulgar Jara",
+    "email": "gabriela.pulgar@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 178,
+    "nombre": "Gary Unda",
+    "email": "gary.unda@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 179,
+    "nombre": "Gerardo Salas",
+    "email": "gerardo.salas@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 180,
+    "nombre": "Gerardo Sandoval Aguayo",
+    "email": "gerardo.sandoval@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 181,
+    "nombre": "gina.rabajille",
+    "email": "gina.rabajille_e.ocaglobal.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 182,
+    "nombre": "Giselle Encina",
+    "email": "giselle.encina@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 183,
+    "nombre": "Gloria Eliash Ortiz",
+    "email": "gloria.eliash@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 184,
+    "nombre": "Gloria Palma",
+    "email": "gloria.palma@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 185,
+    "nombre": "Gloria Saez",
+    "email": "gloria.saez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Planner y Project Plan 3+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 186,
+    "nombre": "Gonzalo Penroz",
+    "email": "gonzalo.penroz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 187,
+    "nombre": "Grace Wandersleben",
+    "email": "grace.wandersleben@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 188,
+    "nombre": "Graciela Morales",
+    "email": "graciela.morales@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 189,
+    "nombre": "Guillermo Albornoz",
+    "email": "guillermo.albornoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 190,
+    "nombre": "Guillermo Mozo Hernandez",
+    "email": "guillermo.mozo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 191,
+    "nombre": "Guillermo Quezada",
+    "email": "guillermo.quezada@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 192,
+    "nombre": "Hector  Guajardo",
+    "email": "hector.guajardo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 193,
+    "nombre": "Héctor Maluenda",
+    "email": "hector.maluenda@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 194,
+    "nombre": "Hector Perez",
+    "email": "hector.perez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 195,
+    "nombre": "Henry Espinoza",
+    "email": "henry.espinoza@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 196,
+    "nombre": "Henry Esquivel",
+    "email": "henry.esquivel@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 197,
+    "nombre": "Heriberto Ulloa",
+    "email": "heriberto.ulloa@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 198,
+    "nombre": "Herman Monilla",
+    "email": "herman.monilla@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 199,
+    "nombre": "Hernán Astete",
+    "email": "hernan.astete@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 200,
+    "nombre": "Hiromi Mendoza",
+    "email": "hiromi.mendoza@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 201,
+    "nombre": "Hugo Leiva",
+    "email": "hugo.leiva@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Planner y Project Plan 3",
+    "activa": true
+  },
+  {
+    "id": 202,
+    "nombre": "Hugo Navarro",
+    "email": "hugo.navarro@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 203,
+    "nombre": "Ignacio Andres Rivera Jimenez",
+    "email": "ignaciorivera@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 204,
+    "nombre": "Ignacio Pina",
+    "email": "ignacio.pina@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 205,
+    "nombre": "Ignacio Tobar",
+    "email": "ignacio.tobar@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 206,
+    "nombre": "Ignea Group",
+    "email": "ignea.group.e@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 207,
+    "nombre": "Ingrid Quinchavil",
+    "email": "ingrid.quinchavil@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 208,
+    "nombre": "Irene Ramírez",
+    "email": "irene.ramirez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 209,
+    "nombre": "Ismael Mejias Vilches",
+    "email": "ismael.mejias@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 210,
+    "nombre": "Israel Inzunza",
+    "email": "israel.inzunza@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 211,
+    "nombre": "Ivan Quinteros",
+    "email": "ivan.quinteros@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 212,
+    "nombre": "Javier Araya",
+    "email": "javier.araya@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 213,
+    "nombre": "Javier Muñoz",
+    "email": "javier.munoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 214,
+    "nombre": "Javiera Cárdenas",
+    "email": "javiera.cardenas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 215,
+    "nombre": "Javiera Rojas Colarte",
+    "email": "javiera.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 216,
+    "nombre": "jcataland",
+    "email": "jcataland_enaprefinerias.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 217,
+    "nombre": "Jean Fernández",
+    "email": "jean.fernandez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 218,
+    "nombre": "Jessenia Canales",
+    "email": "jessenia.canales@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 219,
+    "nombre": "Jesuani Vasquez",
+    "email": "jesuani.vasquez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Planner y Project Plan 3",
+    "activa": true
+  },
+  {
+    "id": 220,
+    "nombre": "Joan Salazar",
+    "email": "joan.salazar@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 221,
+    "nombre": "Johanna Matus",
+    "email": "johanna.matus@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 222,
+    "nombre": "Jonathan Fuentes",
+    "email": "jonathan.fuentes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 223,
+    "nombre": "Jonathan Turra Soto",
+    "email": "jonathan.turra@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 224,
+    "nombre": "Jorge  Hueravilo Soto",
+    "email": "jorge.hueravilo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 225,
+    "nombre": "Jorge Alvear",
+    "email": "jorge.alvear@ocaglobal.onmicrosoft.com",
+    "licencia": "Planner y Project Plan 3+Microsoft Fabric (Gratis)+Microsoft Power Automate Free+Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 226,
+    "nombre": "Jorge Aparicio",
+    "email": "jorge.aparicio@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 227,
+    "nombre": "Jorge Carmona",
+    "email": "jorge.carmona@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 228,
+    "nombre": "Jorge Diaz",
+    "email": "jorge.diaz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 229,
+    "nombre": "Jorge Escobar",
+    "email": "jorge.escobar@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 230,
+    "nombre": "Jorge Labbe",
+    "email": "jorge.labbe@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 231,
+    "nombre": "Jorge Montes",
+    "email": "jorge.montes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 232,
+    "nombre": "Jorge Valdes",
+    "email": "Jorge.valdes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 233,
+    "nombre": "Jorge Villar",
+    "email": "jorge.villar@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 234,
+    "nombre": "Jose Hurtado",
+    "email": "jose.hurtado@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 235,
+    "nombre": "Jose Leyton",
+    "email": "jose.leyton@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 236,
+    "nombre": "Jose Lobos",
+    "email": "jose.lobos@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 237,
+    "nombre": "Jose Luis Fernando Delgado Saavedra",
+    "email": "jose.delgado@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 238,
+    "nombre": "Jose Orellana",
+    "email": "jose.orellana@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 239,
+    "nombre": "Josefina Giuliano Correa",
+    "email": "josefina.giuliano@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 240,
+    "nombre": "Josepha  Rojas",
+    "email": "josepha.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 241,
+    "nombre": "Juan Ahumada",
+    "email": "juan.ahumada@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 242,
+    "nombre": "Juan Araya",
+    "email": "juan.araya@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 243,
+    "nombre": "Juan Bustamante",
+    "email": "juan.bustamante@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 244,
+    "nombre": "Juan Carlos Rojas",
+    "email": "juan.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 245,
+    "nombre": "Juan Hernandez",
+    "email": "juan.hernandez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 246,
+    "nombre": "Juan Marcelo Urrea Salazar",
+    "email": "juan.urrea@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 247,
+    "nombre": "Juan Moncada",
+    "email": "juan.moncada@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 248,
+    "nombre": "Juan Pablo Ortiz Tassara",
+    "email": "juanpablo.ortiz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 249,
+    "nombre": "Juan Rodrigo Munoz",
+    "email": "juanrodrigo.munoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 250,
+    "nombre": "Juan Severino",
+    "email": "juan.severino@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 251,
+    "nombre": "Juan Vidal",
+    "email": "juan.vidal@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 252,
+    "nombre": "Julian Gallegos",
+    "email": "julian.gallegos@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 253,
+    "nombre": "Julian Garcia",
+    "email": "julian.garcia@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 254,
+    "nombre": "Juliana Muñoz",
+    "email": "juliana.munoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 255,
+    "nombre": "Julio Salgado",
+    "email": "julio.salgado@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 256,
+    "nombre": "Karina Fontana",
+    "email": "karina.fontana@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 257,
+    "nombre": "Karina Henriquez",
+    "email": "karina.henriquez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft 365 Empresa Estándar+Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 258,
+    "nombre": "Katherine  Diaz",
+    "email": "katherine.diaz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 259,
+    "nombre": "Katherine Parra",
+    "email": "katherine.parra@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 260,
+    "nombre": "Klauss Kroff",
+    "email": "klauss.kroff@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 261,
+    "nombre": "klauss.kroff",
+    "email": "klauss.kroff_gmail.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 262,
+    "nombre": "Krishna Campos",
+    "email": "krishna.campos@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 263,
+    "nombre": "larevaloj",
+    "email": "larevaloj_enaprefinerias.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 264,
+    "nombre": "Leandro Bahamonde",
+    "email": "leandro.bahamonde@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 265,
+    "nombre": "Lesly Alvarado",
+    "email": "lesly.alvarado@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 266,
+    "nombre": "Lestter Santibanez",
+    "email": "lestter.santibanez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 267,
+    "nombre": "Lila Vives",
+    "email": "lila.vives@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 268,
+    "nombre": "Linda Fuentes",
+    "email": "linda.fuentes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 269,
+    "nombre": "Lisis  Salcedo Zúñiga",
+    "email": "lisis.salcedo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 270,
+    "nombre": "Lorena Hernández",
+    "email": "lorena.hernandez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 271,
+    "nombre": "Luis  Escobar",
+    "email": "luis.escobars@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Microsoft Power Apps for Developer+Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 272,
+    "nombre": "Luis  Gonzáles",
+    "email": "luis.gonzalez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 273,
+    "nombre": "Luis Gonzales",
+    "email": "luis.gonzales@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 274,
+    "nombre": "Luis Muñoz",
+    "email": "luis.munoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 275,
+    "nombre": "Luis Segura",
+    "email": "luis.segura@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 276,
+    "nombre": "Macarena Rojas",
+    "email": "macarena.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 277,
+    "nombre": "Mackarena Echeverría",
+    "email": "mackarena.echeverria@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 278,
+    "nombre": "Mailin Sánchez",
+    "email": "mailin.sanchez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 279,
+    "nombre": "Manuel Bravo",
+    "email": "manuel.bravo@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 280,
+    "nombre": "Marcelo Ledezma",
+    "email": "marcelo.ledezma@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)+Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 281,
+    "nombre": "Marcelo Llanquin",
+    "email": "marcelo.llanquin@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 282,
+    "nombre": "Marcelo Rojas",
+    "email": "marcelo.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 283,
+    "nombre": "Marcelo Valenzuela",
+    "email": "marcelo.valenzuela@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 284,
+    "nombre": "marcelo_mus",
+    "email": "marcelo_mus_hotmail.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 285,
+    "nombre": "Marco Aurelio Yáñez Soto",
+    "email": "marco.yanez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 286,
+    "nombre": "María de los Ángeles Concha",
+    "email": "maria.concha@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 287,
+    "nombre": "Maria Ortiz",
+    "email": "maria.ortiz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Apps for Developer+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 288,
+    "nombre": "Maria Pardo",
+    "email": "maria.pardo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 289,
+    "nombre": "Maria Paredes",
+    "email": "maria.paredes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 290,
+    "nombre": "María Railen",
+    "email": "maria.railen@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 291,
+    "nombre": "Maria Serrano",
+    "email": "maria.serrano@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 292,
+    "nombre": "Maria Soto",
+    "email": "maria.soto@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 293,
+    "nombre": "Maria Uribe",
+    "email": "maria.uribe@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 294,
+    "nombre": "Maria Zapapa Piddo",
+    "email": "maria.zapapa@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 295,
+    "nombre": "maria.sanfrancisco",
+    "email": "maria.sanfrancisco_lundinmining.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 296,
+    "nombre": "Maricel Ávila",
+    "email": "maricel.avila@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 297,
+    "nombre": "Marielisa Chamorro",
+    "email": "marielisa.chamorro@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 298,
+    "nombre": "Mario Allendes",
+    "email": "mario.allendes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 299,
+    "nombre": "Marisol Cabello",
+    "email": "marisol.cabello@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 300,
+    "nombre": "Mary Rebolledo Rojas",
+    "email": "mary.rebolledo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 301,
+    "nombre": "Mateo  Morales",
+    "email": "mateo.morales@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 302,
+    "nombre": "Matias  Mendez Baeza",
+    "email": "matias.mendez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 303,
+    "nombre": "Matías Alaff",
+    "email": "matias.alaff@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 304,
+    "nombre": "Matías Guajardo",
+    "email": "matias.guajardo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 305,
+    "nombre": "Matias Soto",
+    "email": "matias.soto@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 306,
+    "nombre": "Mauricio Aedo",
+    "email": "mauricio.aedo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Planner y Project Plan 3",
+    "activa": true
+  },
+  {
+    "id": 307,
+    "nombre": "Mauricio Diaz",
+    "email": "mauricio.diaz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 308,
+    "nombre": "Mayckel Navarro",
+    "email": "mayckel.navarro@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 309,
+    "nombre": "Melissa Leigthon",
+    "email": "melissa.leigthon@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 310,
+    "nombre": "Meza Sandoval, José Luis Alejandro (Enap Refinerías)",
+    "email": "jmezas_enaprefinerias.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 311,
+    "nombre": "Michael Villalobos",
+    "email": "michael.villalobos@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 312,
+    "nombre": "Michelle Reyes",
+    "email": "michelle.reyes@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 313,
+    "nombre": "Miguel Luengo",
+    "email": "miguel.luengo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 314,
+    "nombre": "Miguel Sayago",
+    "email": "miguel.sayago@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 315,
+    "nombre": "Miguel Vivallo",
+    "email": "miguel.vivallo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 316,
+    "nombre": "Miluska Mendo",
+    "email": "miluska.mendo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 317,
+    "nombre": "Mónica Flores",
+    "email": "monica.flores@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 318,
+    "nombre": "Nadia Garrido",
+    "email": "nadia.garrido@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 319,
+    "nombre": "Natael Toro",
+    "email": "natanael.toro@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 320,
+    "nombre": "Natalia Gonzalez",
+    "email": "natalia.gonzalez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 321,
+    "nombre": "Natalia Rebolledo",
+    "email": "natalia.rebolledo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 322,
+    "nombre": "Natalia Soto",
+    "email": "natalia.soto@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 323,
+    "nombre": "Nelson Castillo",
+    "email": "nelson.castillo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 324,
+    "nombre": "Nicolás González",
+    "email": "nicolas.gonzalez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 325,
+    "nombre": "Nicolas Gonzalez",
+    "email": "nicolas.gonzaleza@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 326,
+    "nombre": "Nicolás Meza",
+    "email": "nicolas.meza@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 327,
+    "nombre": "Nicolas Palma",
+    "email": "nicolas.palma@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 328,
+    "nombre": "Nicolas Vilches",
+    "email": "nicolas.vilches@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Microsoft Fabric (Gratis)+Microsoft 365 Empresa Estándar+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 329,
+    "nombre": "Nicole León",
+    "email": "nicole.leon@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 330,
+    "nombre": "nicole.fuentes2.external",
+    "email": "nicole.fuentes2.external_enel.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 331,
+    "nombre": "Noemi Morales",
+    "email": "noemi.morales@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft 365 Empresa Estándar+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 332,
+    "nombre": "Nora Espinoza",
+    "email": "nora.espinoza@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 333,
+    "nombre": "Oca Soporte Chile",
+    "email": "oca.soporte.chile@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 334,
+    "nombre": "Ociel Figueroa Herrera",
+    "email": "ociel.figueroa@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 335,
+    "nombre": "Ojeda Islas, Esteban Neftali (Enap Refinerías)",
+    "email": "3eojeda_externos.enap.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 336,
+    "nombre": "Oriana JIménez",
+    "email": "oriana.jimenez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 337,
+    "nombre": "Orlando Suárez",
+    "email": "orlando.suarez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 338,
+    "nombre": "Oscar Gutierrez",
+    "email": "oscar.gutierrez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 339,
+    "nombre": "Oscar Lastra",
+    "email": "oscar.lastra@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 340,
+    "nombre": "Oscar Zuniga",
+    "email": "oscar.zuniga@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 341,
+    "nombre": "Pablo Ahumada",
+    "email": "pablo.ahumada@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 342,
+    "nombre": "Pablo García",
+    "email": "pablo.garcia@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 343,
+    "nombre": "Pablo Muñoz",
+    "email": "pablo.munoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 344,
+    "nombre": "Pamela Carvajal Carvajal",
+    "email": "pamela.carvajal@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 345,
+    "nombre": "Pamela Díaz",
+    "email": "pamela.diaz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Power Automate Free+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 346,
+    "nombre": "Pamela Gutierrez",
+    "email": "pamela.gutierrez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 347,
+    "nombre": "Pamela Pinto",
+    "email": "pamela.pinto@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer+Planner y Project Plan 3",
+    "activa": true
+  },
+  {
+    "id": 348,
+    "nombre": "Paola Norambuena",
+    "email": "paola.norambuena@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 349,
+    "nombre": "Patricia Yokens",
+    "email": "patricia.yokens@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Automate Free",
+    "activa": true
+  },
+  {
+    "id": 350,
+    "nombre": "patricia.valera",
+    "email": "patricia.valera_bonatti.it#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 351,
+    "nombre": "Patricio Jara",
+    "email": "patricio.jara@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Power BI Pro+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 352,
+    "nombre": "Paula Belén Ulloa Navarro",
+    "email": "paula.ulloa@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 353,
+    "nombre": "Pedro Muñoz",
+    "email": "pedro.munoz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 354,
+    "nombre": "Pedro Soto Ulloa",
+    "email": "pedro.soto@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 355,
+    "nombre": "pgacitua.buf",
+    "email": "pgacitua.buf_aminerals.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 356,
+    "nombre": "Priscila Di Silvestro Gutierrez",
+    "email": "priscila.gutierrez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 357,
+    "nombre": "psantis",
+    "email": "psantis_enap.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 358,
+    "nombre": "Rafael Antonio Castro Hidalgo",
+    "email": "rafael.castro@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Teams Exploratory+Planner y Project Plan 3+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 359,
+    "nombre": "Rafael de Pujadas",
+    "email": "rafael.depujadas@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 360,
+    "nombre": "Raiqueo Vaccaro, Fernando Alejandro (Enap Refinerías)",
+    "email": "fraiqueo_enaprefinerias.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 361,
+    "nombre": "Ramon Anes",
+    "email": "ramon.anes@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 362,
+    "nombre": "Rancy Jiménez",
+    "email": "rancy.jimenez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 363,
+    "nombre": "Raúl Castillo",
+    "email": "raul.castillo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Planner y Project Plan 3+Microsoft 365 Empresa Estándar+Microsoft Power Automate Free+Microsoft Power Apps Plan 2 Trial",
+    "activa": true
+  },
+  {
+    "id": 364,
+    "nombre": "Raul Miranda",
+    "email": "raul.miranda@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 365,
+    "nombre": "Raul Urizar",
+    "email": "raul.urizar@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 366,
+    "nombre": "Raul Vargas",
+    "email": "raul.vargas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 367,
+    "nombre": "Reyes Araneda, Héctor Placedes (Enap Refinerías)",
+    "email": "hreyes_enaprefinerias.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 368,
+    "nombre": "Ricardo Caqueo Cerda",
+    "email": "ricardo.caqueo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 369,
+    "nombre": "Ricardo Castillo",
+    "email": "ricardo.castillo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 370,
+    "nombre": "Ricardo Cid",
+    "email": "ricardo.cid@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 371,
+    "nombre": "Ricardo Herrera",
+    "email": "ricardo.herrera@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 372,
+    "nombre": "Ricardo Ramírez",
+    "email": "ricardo.ramirez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 373,
+    "nombre": "Ricardo Sepulveda",
+    "email": "ricardo.sepulveda@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 374,
+    "nombre": "Roberto  Rivera",
+    "email": "roberto.rivera@ocaglobal.onmicrosoft.com",
+    "licencia": "Planner y Project Plan 3+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 375,
+    "nombre": "Roberto Jamett",
+    "email": "roberto.jamett@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 376,
+    "nombre": "Robles, Luis",
+    "email": "luis.robles_woodgroup.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 377,
+    "nombre": "Rodrigo Arévalo",
+    "email": "rodrigo.arevalo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 378,
+    "nombre": "Rodrigo Eduardo Araneda Carrillo",
+    "email": "rodrigo.araneda@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Planner y Project Plan 3+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 379,
+    "nombre": "Rodrigo Godoy",
+    "email": "rodrigo.godoy@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 380,
+    "nombre": "Rodrigo Méndez",
+    "email": "rodrigo.mendez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 381,
+    "nombre": "Rodrigo Mora",
+    "email": "rodrigo.mora@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 382,
+    "nombre": "Rodrigo Ortiz",
+    "email": "rodrigo.ortiz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 383,
+    "nombre": "Rodrigo Rojas",
+    "email": "rodrigo.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 384,
+    "nombre": "Rosa Díaz",
+    "email": "rosa.diaz@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 385,
+    "nombre": "rsanhueza.buf",
+    "email": "rsanhueza.buf_aminerals.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 386,
+    "nombre": "Ruben Dinamarca",
+    "email": "ruben.dinamarca@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 387,
+    "nombre": "Rubén Zapata",
+    "email": "ruben.zapata@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 388,
+    "nombre": "Sabina Mery",
+    "email": "sabina.mery@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 389,
+    "nombre": "Samuel  Mora Vargas",
+    "email": "samuel.vargas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 390,
+    "nombre": "Saul Sepulveda",
+    "email": "saul.sepulveda@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 391,
+    "nombre": "Sebastian David Duran Arriagada",
+    "email": "sebastian.duran@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 392,
+    "nombre": "Sebastián Díaz",
+    "email": "sebastian.diaz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Automate Free+Visio Plan 2+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 393,
+    "nombre": "Sebastian Rojas Aguilera",
+    "email": "sebastian.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 394,
+    "nombre": "Sebastian Toro",
+    "email": "sebastian.toro@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 395,
+    "nombre": "Selenne Orozco",
+    "email": "selenne.orozco@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 396,
+    "nombre": "Sergio Benítez",
+    "email": "sergio.benitez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 397,
+    "nombre": "Sergio Celis Trujillo",
+    "email": "sergio.celis@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 398,
+    "nombre": "Sergio Hermosilla",
+    "email": "sergio.hermosilla@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 399,
+    "nombre": "Sergio Lazo",
+    "email": "sergio.lazo@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 400,
+    "nombre": "Sergio Salas",
+    "email": "sergio.salas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 401,
+    "nombre": "Sergio Saldivia",
+    "email": "sergio.saldivia@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 402,
+    "nombre": "Sergio Soto",
+    "email": "sergio.soto@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 403,
+    "nombre": "Sergio Tobar",
+    "email": "sergio.tobar@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 404,
+    "nombre": "Silva, Claudia",
+    "email": "claudia.silva_woodgroup.com#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 405,
+    "nombre": "Simón Alvarado",
+    "email": "simon.alvarado@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 406,
+    "nombre": "Soporte",
+    "email": "Soporte@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 407,
+    "nombre": "Soporte IT",
+    "email": "SoporteIT@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 408,
+    "nombre": "Soporte_IT",
+    "email": "Soporte_IT@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 409,
+    "nombre": "Stephania Troncoso",
+    "email": "stephania.troncoso@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 410,
+    "nombre": "Stephanie Rojas",
+    "email": "stephanie.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 411,
+    "nombre": "Tomás Campos",
+    "email": "tomas.campos@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 412,
+    "nombre": "Tomás Koren",
+    "email": "tomas.koren@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 413,
+    "nombre": "Tupac Molina",
+    "email": "tupac.molina@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 414,
+    "nombre": "Uribe Hidalgo, María Isabel (Enap Refinerías)",
+    "email": "3muribe_externos.enap.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 415,
+    "nombre": "Valentina Araneda",
+    "email": "valentina.araneda@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 416,
+    "nombre": "Valeria Camino",
+    "email": "valeria.camino@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 417,
+    "nombre": "Valeria Farias Guzman",
+    "email": "valeria.farias@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 418,
+    "nombre": "Vanessa Martínez",
+    "email": "vanessa.martinez@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 419,
+    "nombre": "Verónica  Cáceres",
+    "email": "veronica.caceres@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 420,
+    "nombre": "Verónica Bañares",
+    "email": "veronica.banares@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 421,
+    "nombre": "Verónica Paz Valenzuela Reyes",
+    "email": "veronica.paz@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 422,
+    "nombre": "Vicente Hormazabal",
+    "email": "vicente.hormazabal@ocaglobal.onmicrosoft.com",
+    "licencia": "Power BI Pro+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 423,
+    "nombre": "Víctor Barriga",
+    "email": "victor.barriga@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 424,
+    "nombre": "Victor Brecas",
+    "email": "victor.brecas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 425,
+    "nombre": "Victor Hugo Apablaza Espinoza",
+    "email": "victor.apablaza@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 426,
+    "nombre": "Victor Molina",
+    "email": "victor.molina@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Microsoft 365 Empresa Estándar",
+    "activa": true
+  },
+  {
+    "id": 427,
+    "nombre": "Víctor Ponce",
+    "email": "victor.ponce@ocaglobal.onmicrosoft.com",
+    "licencia": "Planner y Project Plan 3+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 428,
+    "nombre": "Victoria Rojas",
+    "email": "victoria.rojas@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 429,
+    "nombre": "Vidal Henríquez, Juan Alexis (Enap Refinerías)",
+    "email": "3jvidal_externos.enap.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 430,
+    "nombre": "Vidal Oliva, Cristián Alexander (Enap Refinerías)",
+    "email": "cvidal_enap.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  },
+  {
+    "id": 431,
+    "nombre": "Walter Gonzalez",
+    "email": "walter.gonzalez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 432,
+    "nombre": "Walter Guerque",
+    "email": "walter.guerque@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Fabric (Gratis)",
+    "activa": true
+  },
+  {
+    "id": 433,
+    "nombre": "Walter Huaman",
+    "email": "walter.huaman@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 434,
+    "nombre": "Wilson Cáceres",
+    "email": "wilson.caceres@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 435,
+    "nombre": "Yanko Monsalves",
+    "email": "yanko.monsalves@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 436,
+    "nombre": "Yeimei Castro",
+    "email": "yeimei.castro@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 437,
+    "nombre": "Yelitza Perez Silva",
+    "email": "yelitza.perez@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 438,
+    "nombre": "Yelivy Cisneros",
+    "email": "yelivy.cisneros@ocaglobal.onmicrosoft.com",
+    "licencia": "Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 439,
+    "nombre": "Yesenia Reyes",
+    "email": "yesenia.reyes@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 440,
+    "nombre": "Yessica Ayala",
+    "email": "yessica.ayala@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft 365 Empresa Estándar+Microsoft Power Automate Free+Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 441,
+    "nombre": "Yiseldy Caraballo",
+    "email": "yiseldy.caraballo@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Aplicaciones de Microsoft 365 para negocios",
+    "activa": true
+  },
+  {
+    "id": 442,
+    "nombre": "Yocelyn Urquiola",
+    "email": "yocelyn.urquiola@ocaglobal.onmicrosoft.com",
+    "licencia": "Microsoft Fabric (Gratis)+Microsoft Power Automate Free+Aplicaciones de Microsoft 365 para negocios+Microsoft Power Apps for Developer",
+    "activa": true
+  },
+  {
+    "id": 443,
+    "nombre": "Zapata Espinace, Carolina Patricia (Enap Refinerías)",
+    "email": "carolina_zapata_enaprefinerias.cl#EXT#@ocaglobal.onmicrosoft.com",
+    "licencia": "Unlicensed",
+    "activa": false
+  }
+]

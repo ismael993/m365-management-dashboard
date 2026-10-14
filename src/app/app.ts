@@ -1,12 +1,10 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { OfficeAccounts } from './office-accounts/office-accounts';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  standalone: true,
+  imports: [OfficeAccounts],
+  template: `<app-office-accounts></app-office-accounts>`
 })
-export class App {
-  protected readonly title = signal('gestion-cuentas-office');
-}
+export class App {}
